@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int ar[n];
+    for (int i = 0; i < n; i++)
+    {
+        /* code */
+        scanf("%d",&ar[i]);
+    }
+    int pos;
+    for (int i = 0; i < pos-1; i++)
+    {
+        /* code */
+        scanf("%d",&pos);
+    }
+    for (int i = pos; i < n-1; i++)
+    {
+        /* code */
+        ar[i]=ar[i+1];
+    }
+    for (int i = 0; i < n-1; i++)
+    {
+        /* code */
+        printf("%d ",ar[i]);
+    }
+    
+    
+    
+    return 0;
+}
